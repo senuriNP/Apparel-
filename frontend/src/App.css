@@ -1,0 +1,33 @@
+/* src/App.css */
+
+/* Basic styling for the layout */
+.app-layout {
+  padding: 20px;
+  text-align: center;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.dashboard-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.dashboard-button:hover {
+  background-color: #0056b3;
+}
+
+
+

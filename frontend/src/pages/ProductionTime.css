@@ -1,0 +1,227 @@
+.protime-layout {
+    display: flex; 
+    background-color: rgb(163, 232, 255);
+    background-size: cover;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    width: 200px; 
+    background-color: #000000; 
+    padding: 20px; 
+    height: 100vh; 
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); 
+    border-radius: 15px;
+  }
+  
+  /* Navbar logo styling */
+  .navbar-logo {
+    font-size: 24px; 
+    margin-bottom: 20px; 
+    background-color: #000000;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 40px;
+    color: #ffffff;
+  }
+  
+  /* Navigation links styling */
+  .nav-links {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  /* Individual link styles */
+  .nav-links a {
+    text-decoration: none; 
+    color: #ffffff; 
+    padding: 10px; 
+    border-radius: 4px; 
+    transition: background-color 0.3s; 
+    font-weight: bold;
+  }
+  
+  /* Active link styling */
+  .nav-links a.active {
+    background-color: #007bff; 
+    color: white; 
+  }
+  
+  /* Logout button styling */
+  .logout-button {
+    margin-top: auto; 
+    background-color: red;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    
+    
+  }
+  .logout-button a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+   
+  }
+  
+  /* Profile button styling */
+  .profile-button {
+    position: absolute; 
+    top: 20px; 
+    right: 20px; 
+  }
+  .profile-button a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #112c33;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .profile-button a:hover {
+    background-color: #fefefe;
+    color: #000000;
+  }
+  .proForm{
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    height: 550px;
+    width: 500px;
+    margin: 20px auto; 
+    padding: 20px;
+    
+    
+  }
+  .PrevBox{
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    width: 900px;
+    padding: 30px;
+    border: 1px solid #ddd;
+
+  }
+  
+  /* Dashboard content styling */
+  .protime-content {
+    flex: 1; 
+    padding: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    color: #191b1c;
+  }
+
+  .form-inputPT {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+/* Input focus state */
+.form-inputPT:focus {
+    outline: none;
+    border-color: #007bff; 
+}
+
+/* Button styling */
+.form-buttonPT {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #28a745; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover state */
+.form-buttonPT:hover {
+    background-color: #218838; 
+}
+
+.dlt-button{
+    background-color: rgb(218, 56, 56);
+    border-radius: 8px;
+    border: none;
+    height: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.updt-button{
+    background-color: #ffc107;
+    border-radius: 8px;
+    border: none;
+    height: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.production-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.production-table th, .production-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+.production-table th {
+    background-color: #007BFF;
+    color: #ffffff;
+}
+
+
+.production-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.production-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.scrollbar1{
+  height: 750px;
+  overflow-y: scroll;  /* Keep scrolling enabled */
+  scrollbar-width: none;  /* For Firefox */
+  -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+}
+.scrollbar1::-webkit-scrollbar {
+  display: none;  /* For Chrome, Safari, and Opera */
+}
+/* Line Chart Container */
+.chart-container {
+  background-color: white; /* White background for the graph */
+  border: 1px solid #ddd; /* Light border around the graph */
+  padding: 20px; /* Padding around the chart */
+  border-radius: 8px; /* Slightly rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for professional look */
+  width: 80%; /* Professional width, 80% of its parent container */
+  max-width: 1000px; /* Maximum width for larger screens */
+  height: 500px; /* Set height of the chart */
+  margin: 20px auto; /* Center the container horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

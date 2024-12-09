@@ -1,0 +1,18 @@
+/* frontend/src/components/ProductionTimeChart.css */
+.chart-container1 {
+    background-color: white; /* White background for the graph */
+    border: 1px solid #ddd; /* Light border around the graph */
+    padding: 20px; /* Padding around the chart */
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for professional look */
+    width: 30%; /* Set a reasonable width */
+    max-width: 1000px; /* Maximum width for larger screens */
+    height: 300px; /* Set height of the chart */
+    position: absolute; /* Make the container position absolute */
+    top: 40px; /* Adjust top position to be near the top */
+    left: 200px; /* Adjust left position to place it next to the navbar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px; /* To ensure there’s space for the navbar */
+}

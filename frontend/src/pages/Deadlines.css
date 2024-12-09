@@ -1,0 +1,232 @@
+/* Overall layout for the deadlines */
+.deadlines-layout {
+    display: flex; 
+    background-color: rgb(163, 232, 255);
+    
+    background-size: cover;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    width: 200px; 
+    background-color: #000000; 
+    padding: 20px; 
+    height: 100vh; 
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); 
+    border-radius: 15px;
+  }
+  
+  /* Navbar logo styling */
+  .navbar-logo {
+    font-size: 24px; 
+    margin-bottom: 20px; 
+    background-color: #000000;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 40px;
+    color: #ffffff;
+  }
+  
+  /* Navigation links styling */
+  .nav-links {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  /* Individual link styles */
+  .nav-links a {
+    text-decoration: none; 
+    color: #ffffff; 
+    padding: 10px; 
+    border-radius: 4px; 
+    transition: background-color 0.3s; 
+    font-weight: bold;
+  }
+  
+  /* Active link styling */
+  .nav-links a.active {
+    background-color: #007bff; 
+    color: white; 
+  }
+  
+  /* Logout button styling */
+  .logout-button {
+    margin-top: auto; 
+    background-color: red;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    
+    
+  }
+  .logout-button a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+   
+  }
+  
+  /* Profile button styling */
+  .profile-button {
+    position: absolute;
+    top: 20px; 
+    right: 20px; 
+  }
+  .profile-button a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #112c33;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .profile-button a:hover {
+    background-color: #fefefe;
+    color: #000000;
+  }
+
+  
+  /* Deadline content styling */
+  .deadlines-content {
+    flex: 1; 
+    padding: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    color: #191b1c;
+  }
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 200px; /* Limit width for better layout */
+  }
+  
+  button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+  /* Deadline List Table */
+  .deadline-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .deadline-table th, .deadline-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .deadline-table th {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .deadline-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .update-buttonDed {
+    background-color: #ffc107;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+   
+  }
+  .delete-buttonDed{
+    background-color: #dc3545;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  
+  
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    form {
+      flex-direction: column;
+    }
+  
+    input, select, button[type="submit"] {
+      max-width: 100%; /* Full width on small screens */
+    }
+  }
+  .scrollD{
+    height: 750px;
+    overflow-y: scroll;  /* Keep scrolling enabled */
+    scrollbar-width: none;  /* For Firefox */
+    -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+    width: 800px;
+  }
+  .scrollD::-webkit-scrollbar {
+    display: none;  /* For Chrome, Safari, and Opera */
+  }
+  .chart-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: none;
+    margin: 20px auto;
+    width: 300px;
+    height: 300px;
+    
+  }
+  .dform{
+    width: 700px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    
+
+  }
+  .dform button{
+    background-color: #37c737;
+    font-weight: bold;
+  }
+  .dedlinetable{
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 700px;
+   
+    margin: 20px auto;
+  }
+ 

@@ -1,0 +1,150 @@
+/* Designs.css */
+
+/* Overall layout for the designs */
+.design-layout {
+    display: flex; 
+    background-color: rgb(163, 232, 255);
+    
+    background-size: cover;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    width: 200px; 
+    background-color: #000000; 
+    padding: 20px; 
+    height: 100vh; 
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); 
+    border-radius: 15px;
+  }
+  
+  /* Navbar logo styling */
+  .navbar-logo {
+    font-size: 24px; 
+    margin-bottom: 20px; 
+    background-color: #000000;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 40px;
+    color: #ffffff;
+  }
+  
+  /* Navigation links styling */
+  .nav-links {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  /* Individual link styles */
+  .nav-links a {
+    text-decoration: none; 
+    color: #ffffff; 
+    padding: 10px; 
+    border-radius: 4px; 
+    transition: background-color 0.3s; 
+    font-weight: bold;
+  }
+  
+  /* Active link styling */
+  .nav-links a.active {
+    background-color: #007bff; 
+    color: white; 
+  }
+  
+  /* Logout button styling */
+  .logout-button {
+    margin-top: auto; 
+    background-color: red;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    
+    
+  }
+  .logout-button a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+   
+  }
+  
+  /* Profile button styling */
+  .profile-button {
+    position: absolute; 
+    top: 20px; 
+    right: 20px; 
+  }
+  .profile-button a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #112c33;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .profile-button a:hover {
+    background-color: #fefefe;
+    color: #000000;
+  }
+
+  
+  /* Design content styling */
+  .design-content {
+    flex: 1; 
+    padding: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    color: #000000;
+    
+  }
+  
+  .approved-designs{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    border-radius: 8px;
+    
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    border: 1px solid #ddd;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .designs-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.designs-table th, .designs-table td {
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
+.designs-table th {
+  background-color: #007BFF;
+  color: #ffffff;
+}
+
+.designs-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.design-Box{
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 700px;
+ 
+  margin: 20px auto;
+}

@@ -1,0 +1,121 @@
+/* Dashboard.css */
+
+/* Overall layout for the dashboard */
+.dashboard-layout {
+    display: flex; 
+    background-color: rgb(163, 232, 255);
+    
+    background-size: cover;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    width: 200px; 
+    background-color: #000000; 
+    padding: 20px; 
+    height: 100vh; 
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); 
+    border-radius: 15px;
+  }
+  
+  /* Navbar logo styling */
+  .navbar-logo {
+    font-size: 24px; 
+    margin-bottom: 20px; 
+    background-color: #000000;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 40px;
+    color: #ffffff;
+  }
+  /* Navigation links styling */
+  .nav-links {
+    display: flex;
+    flex-direction: column; 
+  }
+  /* Individual link styles */
+  .nav-links a {
+    text-decoration: none; 
+    color: #ffffff; 
+    padding: 10px; 
+    border-radius: 4px; 
+    transition: background-color 0.3s; 
+    font-weight: bold;
+  }
+  
+  /* Active link styling */
+  .nav-links a.active {
+    background-color: #6dc071; 
+    color: white; 
+  }
+  
+  /* Logout button styling */
+  .logout-button {
+    margin-top: auto; 
+    background-color: red;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    
+    
+  }
+  .logout-button a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+   
+  }
+  
+  /* Profile button styling */
+  .profile-button {
+    position: absolute; 
+    top: 20px; 
+    right: 20px; 
+  }
+  .profile-button a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #112c33;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .profile-button a:hover {
+    background-color: #fefefe;
+    color: #000000;
+  }
+
+  
+  /* Dashboard content styling */
+  .dashboard-content {
+    flex: 1; 
+    padding: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    color: #191b1c;
+  }
+  
+  .charts-container {
+    display: flex;
+    gap: 20px; /* Space between the charts */
+    margin-top: 20px; /* Optional: add margin above charts */
+  }
+ .view-buttons{
+  position: absolute; /* Make the container position absolute */
+    top: 450px; /* Adjust top position to be near the top */
+    left: 200px; /* Adjust left position to place it next to the navbar */
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+ }

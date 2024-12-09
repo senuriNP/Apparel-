@@ -1,0 +1,218 @@
+/* Reports.css */
+.reports-layout {
+  display: flex; 
+  background-color: rgb(163, 232, 255);
+  background-size: cover;
+}
+
+/* Navbar styling */
+.navbar {
+  width: 200px; 
+  background-color: #000000; 
+  padding: 20px; 
+  height: 100vh; 
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+/* Navbar logo styling */
+.navbar-logo {
+  font-size: 24px; 
+  margin-bottom: 20px; 
+  color: #ffffff;
+}
+
+/* Navigation links styling */
+.nav-links {
+  display: flex;
+  flex-direction: column; 
+}
+
+/* Individual link styles */
+.nav-links a {
+  text-decoration: none; 
+  color: #ffffff; 
+  padding: 10px; 
+  border-radius: 4px; 
+  transition: background-color 0.3s; 
+  font-weight: bold;
+}
+
+/* Active link styling */
+.nav-links a.active {
+  background-color: #007bff; 
+  color: white; 
+}
+
+/* Logout button styling */
+.logout-button {
+  margin-top: auto; 
+  background-color: red;
+  border-radius: 10px;
+  height: 30px;
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+
+/* Profile button styling */
+.profile-button {
+  position: absolute; 
+  top: 20px; 
+  right: 20px; 
+}
+
+.profile-button a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #112c33;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s, color 0.3s;
+}
+
+.profile-button a:hover {
+  background-color: #fefefe;
+  color: #000000;
+}
+
+/* Reports content styling */
+.reports-content {
+  flex: 1; 
+  padding: 20px; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+/* Report box styling */
+.reportBox {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  width: 600px;
+  
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+  border: 1px solid #ddd;
+  padding: 20px; /* Add padding for spacing */
+}
+
+/* Input fields styling */
+.form-input,
+.form-textarea,
+.date-picker {
+  width: 100%; /* Make inputs full width */
+  padding: 10px;
+  margin-bottom: 15px; /* Space between fields */
+  border: 1px solid #000000;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+/* Focus styles */
+.form-input:focus,
+.form-textarea:focus,
+.date-picker:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Dropzone field */
+.dropzone-field {
+  padding: 20px;
+  border: 2px dashed #007bff;
+  border-radius: 4px;
+  background-color: #bee4f5;
+  text-align: center;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.dropzone-field:hover {
+  background-color: #f0f8ff;
+  border-color: #0056b3;
+}
+
+/* Submit button styling */
+.submit-button {
+  width: 300px;
+  padding: 12px;
+  background-color: #20d34a;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #218838;
+}
+
+/* Previous reports box styling */
+.prereportBox {
+  background-color: rgb(255, 255, 255);
+  border-radius: 2px;
+  width: 900px;
+  
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+  border: 1px solid #ddd;
+  padding: 20px; /* Add padding for spacing */
+}
+
+/* Table styling */
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.report-table th, .report-table td {
+  border: 1px solid #b2b0b0;
+  padding: 10px;
+}
+
+.report-table th {
+  background-color: #007BFF;
+  color: #ffffff;
+}
+
+.report-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.report-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Scrollbar styling */
+.scrollbar2 {
+  height: 750px;
+  overflow-y: scroll; 
+  scrollbar-width: none; 
+}
+
+.scrollbar2::-webkit-scrollbar {
+  display: none; 
+}
+.update-buttonR{
+  background-color: #ffc107;
+  border: none;
+  color: #ffffff;
+  height: 30px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.delete-buttonR{
+  background-color: #ff0f07;
+  border: none;
+  color: #ffffff;
+  height: 30px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+

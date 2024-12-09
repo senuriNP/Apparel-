@@ -1,0 +1,232 @@
+/* Dashboard.css */
+
+/* Overall layout for the dashboard */
+.m-layout {
+    display: flex; 
+    background-color: rgb(163, 232, 255);
+    
+  
+    background-size: cover; 
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    width: 200px; 
+    background-color: #000000;
+    padding: 20px; 
+    height: 100vh; 
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); 
+    border-radius: 15px;
+  }
+  
+  /* Navbar logo styling */
+  .navbar-logo {
+    font-size: 24px; 
+    margin-bottom: 20px; 
+    background-color: #000000;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 40px;
+    color: #ffffff;
+  }
+  
+  /* Navigation links styling */
+  .nav-links {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  /* Individual link styles */
+  .nav-links a {
+    text-decoration: none; 
+    color: #ffffff;
+    padding: 10px; 
+    border-radius: 4px; 
+    transition: background-color 0.3s; 
+    font-weight: bold;
+  }
+  
+  /* Active link styling */
+  .nav-links a.active {
+    background-color: #007bff; 
+    color: white;
+  }
+  
+  /* Logout button styling */
+  .logout-button {
+    margin-top: auto; 
+    background-color: red;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    
+    
+  }
+  .logout-button a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+   
+  }
+  
+  /* Profile button styling */
+  .profile-button {
+    position: absolute; 
+    top: 20px; 
+    right: 20px; 
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+  }
+  .profile-button a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #112c33;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .profile-button a:hover {
+    background-color: #fefefe;
+    color: #000000;
+  }
+
+  
+  /* Dashboard content styling */
+.mbutton{
+  height: 40px;
+}
+
+.edit-button {
+    background-color: #ffc107;
+    color: white;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.delete-button {
+    background-color: #dc3545; 
+    color: white;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+  
+}
+
+.prbox {
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    border-radius: 8px;
+    
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    border: 1px solid #ddd;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .material-content {
+    flex: 1; 
+    padding: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    color: #191b1c;
+    
+  }
+
+  .generate-report-button{
+    background-color: #007bff;
+    border-radius: 20px;
+    color: #ffffff;
+    border: none;
+    width: 200px;
+    height: 30px;
+    font-weight: bold;
+  }
+
+  .material-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.material-table th, .material-table td {
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
+.material-table th {
+  background-color: #007BFF;
+  color: #ffffff;
+}
+
+.material-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.search-bar {
+    width: 700px;
+    padding: 10px;
+    margin-bottom: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 16px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+.form-inputM {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    
+}
+
+
+.form-inputM:focus {
+    outline: none;
+    border-color: #007bff; 
+}
+
+.report-section{
+  background-color: rgb(255, 255, 255);
+  width: 1050px;
+  border-radius: 8px;
+  
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+  height: 200px;
+  border: 1px solid #ddd;
+  font-family:  Helvetica;
+}
+
+.scrollable-container {
+  height: 700px;
+  overflow-y: scroll;  /* Keep scrolling enabled */
+  scrollbar-width: none;  /* For Firefox */
+  -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+}
+
+.scrollable-container::-webkit-scrollbar {
+  display: none;  /* For Chrome, Safari, and Opera */
+}
+
+
+
+
+ 
+  
